@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    
+    .bg {
+      /* The image used */
+      background-image: url("https://images.pexels.com/photos/1666069/pexels-photo-1666069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    
+      /* Full height */
+      height: 100%; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link href="css/style.css" type="text/css" rel="stylesheet">
-<link href="css/fontawesome/css/all.css" type="text/css" rel="stylesheet"
-<body>
+<link href="css/fontawesome/css/all.css" type="text/css" rel="stylesheet">  
+</head>
+<body class="bg">
   <section class="wrapper">
-    <h1>TODO today</h1>
+    <h1>Christmas Wishlist</h1>
     <p>Enter text into the input field to add items to your list.</p>
     <p>Click items to mark them as done!</p>
     <div class="inputContainer">
-      <input type="input" id="todoItem">
+      <input type="input" id="wishlistItem">
       <button id="enter"><i class="fas fa-pencil-alt"></i></button>
     </div>
-    <div id="todoList">
+    <div id="wishList">
 
     </div>
   </section>
