@@ -4,7 +4,6 @@ body {
   padding: 0;
 }
 
-/* https://images.pexels.com/photos/1666069/pexels-photo-1666069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 */
 h1 {
   margin: 5px;
   margin-top: 50px;
@@ -36,7 +35,7 @@ p {
 }
 #enter {
   padding: 2%;
-  background-color: #5cb1d5;
+  background-color: #32b00f;
   color: white;
   border-radius: 3px;
   width: 10%;
